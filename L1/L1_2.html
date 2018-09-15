@@ -1,0 +1,65 @@
+﻿<!--2018.09.14, HTML page that indicates a simple prototype of an interface for signing up-->
+
+<!doctype html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sign up</title>
+</head>
+<body style="text-align:center;font-size:24px">
+    <form>
+    <h1>Sign up</h1>
+    <table border="1" style="margin:auto">
+        <tr>
+            <td height="80" align="center" valign="middle" bgcolor="#CCCCCC">Username: 
+            <label for="textUsername"></label>
+            <input type="text" name="textUsername" id="textUsername" autofocus required>
+            </td>
+        </tr>
+        <tr>
+            <td height="80" align="center" valign="middle" bgcolor="#CCCCCC">Password: 
+            <label for="textPassword"></label>
+            <input type="password" name="textPassword" id="textPassword" required>
+            </td>
+        </tr>
+        <tr>
+            <td height="80" align="center" valign="middle" bgcolor="#CCCCCC">Email: 
+            <label for="textEmail"> </label>
+            <input type="email" name="textEmail" id="textEmail" placeholder="example@domain.com" required>
+            </td>
+        </tr>
+        <tr>
+            <td height="80" align="center" valign="middle" bgcolor="#CCCCCC">Birthday: 
+            <select name="Day">
+                <option value="day1" selected>01</option>
+                <option value="day2">02</option>
+                <option value="day3">03</option>
+                <option value="day4">04</option>
+            </select>
+            <select name="Month">
+                <option value="month1" selected>Jan</option>
+                <option value="month2">Feb</option>
+                <option value="month3">Mar</option>
+                <option value="month4">Apr</option>
+            </select>
+            <select name="Year">
+                <option value="year1">1996</option>
+                <option value="year2">1997</option>
+                <option value="year3" selected>1998</option>
+                <option value="year4">1999</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td height="30" align="center" valign="middle" bgcolor="#CCCCCC">
+                <label for="buttonSubmit"></label>
+                <input type="submit" name="buttonSubmit" id="buttonSubmit" value="Submit">
+                <label for="buttonReset"></label>
+                <input type="reset" name="buttonReset" id="buttonReset" value="Reset">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
