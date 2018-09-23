@@ -1,0 +1,256 @@
+﻿/*2018.09.21, CSS page that is related to "L2_1.html"*/
+
+body
+{
+    margin: 0;
+    padding: 0 50px 0 50px;
+    font-size: 24px;
+    background-color: dimgray
+}
+
+.container
+{
+    height: auto;
+    width: auto;
+    margin: 0 0 4px 0;
+    background-color: lightgray
+}
+
+#companyLogo
+{
+    height: auto;
+    width: auto;
+    padding: 37px 0 20px 20px;
+    float: left;
+    background-color: white
+}
+
+#logoStyle
+{
+    height: 60px;
+    width: 260px;
+    display: block
+}
+
+#topNav
+{
+    height: auto;
+    width: auto;
+    color: gray;
+    padding: 65px 0 20px 0;
+    background-color: white
+}
+
+#topNavMenu
+{
+    list-style-type: none;
+    margin: 0 10px 0 0;
+    padding: 0;
+    overflow: hidden
+}
+
+.topNavMenuItem
+{
+    float: right;
+    display: block;
+    padding: 0 10px 0 30px;
+    text-align: right;
+    color: gray;
+    border-right: 1px solid gray
+}
+
+#adPictureStyle
+{
+    height: 300px;
+    width: 100%;
+    display: block
+}
+
+#leftContainer
+{
+    height: 453px;
+    width: 295px;
+    margin: 0;
+    float: left;
+    background-color: lightgray
+}
+
+#newsArea
+{
+    height: auto;
+    width: 235px;
+    margin: 0 0 4px 0;
+    padding: 10px 30px 10px 30px;
+    background-color: white
+}
+
+.header
+{
+    font-size: 28px;
+    padding: 10px 0 5px 0
+}
+
+#newsList
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 10px 0;
+    font-size: 18px
+}
+
+.newsListItem
+{
+    display: block;
+    padding: 5px 0 5px 0
+}
+
+#loginArea
+{
+    height: auto;
+    width: 235px;
+    padding: 10px 30px 20px 30px;
+    background-color: white
+}
+
+#loginAreaSelection
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+#loginAreaForget
+{
+    float: left;
+    display: block;
+    font-size: 12px;
+    color: gray;
+    padding-right: 5px;
+    border-right: 1px solid gray
+}
+
+#loginAreaSignUp
+{
+    float: left;
+    display: block;
+    font-size: 12px;
+    color: gray;
+    padding-left: 5px
+}
+
+#rightContainer
+{
+    height: 453px;
+    width: 1120px;
+    margin: 0 0 0 4px;
+    float: left;
+    background-color: lightgray
+}
+
+#mainContentArea1
+{
+    height: 47%;
+    width: auto;
+    margin: 0 0 4px 0;
+    padding: 10px 20px 20px 20px;
+    background-color: white;
+}
+
+.illustration
+{
+    height: auto;
+    width: 25%;
+    margin: 0;
+    padding: 10px 5px 20px 0px;
+    float: left
+}
+
+.text
+{
+    height: auto;
+    width: 70%;
+    margin: 0;
+    padding: 10px 10px 20px 5px;
+    float: left;
+    font-size: 18px
+}
+
+#illustrationStyle1
+{
+    height: 143px;
+    width: 100%;
+    display: block
+}
+
+#mainContentArea2
+{
+    height: 39%;
+    width: 46.3%;
+    margin: 0 4px 0 0;
+    padding: 10px 20px 20px 20px;
+    float: left;
+    background-color: white;
+}
+
+#illustrationStyle2
+{
+    height: 70px;
+    width: 100%;
+    display: block
+}
+
+#mainContentArea3
+{
+    height: 39%;
+    width: 46.2%;
+    margin: 0;
+    padding: 10px 20px 20px 20px;
+    float: left;
+    background-color: white;
+}
+
+#illustrationStyle3
+{
+    height: 70px;
+    width: 100%;
+    display: block
+}
+
+#copyrightArea
+{
+    height: auto;
+    width: auto;
+    margin: 0 0 4px 0;
+    padding: 4px 0 4px 30px;
+    font-size: 12px;
+    color: gray;
+    background-color: black
+}
+
+#bottomNav
+{
+    height: auto;
+    width: auto;
+    margin: 0 0 4px 0;
+    padding: 10px 10px 40px 0;
+    background-color: lightgray;
+    font-size: 12px
+}
+
+#bottomNavMenu
+{
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+    overflow: hidden
+}
+
+.bottomNavMenuItem
+{
+    float: right;
+    display: block;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    border-right: 1px solid
+}

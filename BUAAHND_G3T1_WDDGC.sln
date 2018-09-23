@@ -5,43 +5,24 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L1", "L1", "{1F9DB71E-C323-40E6-B333-399E15077BB8}"
 	ProjectSection(SolutionItems) = preProject
+		L1\L1_1\L1_1.html = L1\L1_1\L1_1.html
 		L1\L1_2.html = L1\L1_2.html
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "L1_1", "L1\L1_1\", "{007F1299-AE2C-40D5-97AD-1DAF480C57DC}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_63770"
-		Debug.AspNetCompiler.PhysicalPath = "L1\L1_1\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63770\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_63770"
-		Release.AspNetCompiler.PhysicalPath = "L1\L1_1\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63770\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63770"
-		SlnRelativePath = "L1\L1_1\"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L2", "L2", "{BEE14F8F-96A8-4D88-9DCB-24C340675F18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L2_1", "L2_1", "{8679A483-E19F-48E2-B71B-F3C238626BA3}"
+	ProjectSection(SolutionItems) = preProject
+		L2\L2_1\L2_1.css = L2\L2_1\L2_1.css
+		L2\L2_1\L2_1.html = L2\L2_1\L2_1.html
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{007F1299-AE2C-40D5-97AD-1DAF480C57DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{007F1299-AE2C-40D5-97AD-1DAF480C57DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{007F1299-AE2C-40D5-97AD-1DAF480C57DC} = {1F9DB71E-C323-40E6-B333-399E15077BB8}
+		{8679A483-E19F-48E2-B71B-F3C238626BA3} = {BEE14F8F-96A8-4D88-9DCB-24C340675F18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62CF9D7E-4990-4044-AA76-FA22DE7CFD82}
