@@ -17,12 +17,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L2_1", "L2_1", "{8679A483-E
 		L2\L2_1\L2_1.html = L2\L2_1\L2_1.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L3", "L3", "{724CAAC9-F7AC-453E-B53D-CBF2DAC3A96E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L3_1", "L3_1", "{CF1DA893-7EC9-4A6B-B09B-85D8A0E10B48}"
+	ProjectSection(SolutionItems) = preProject
+		L3\L3_1\L3_1.css = L3\L3_1\L3_1.css
+		L3\L3_1\L3_1.html = L3\L3_1\L3_1.html
+		L3\L3_1\L3_1.js = L3\L3_1\L3_1.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8679A483-E19F-48E2-B71B-F3C238626BA3} = {BEE14F8F-96A8-4D88-9DCB-24C340675F18}
+		{CF1DA893-7EC9-4A6B-B09B-85D8A0E10B48} = {724CAAC9-F7AC-453E-B53D-CBF2DAC3A96E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62CF9D7E-4990-4044-AA76-FA22DE7CFD82}

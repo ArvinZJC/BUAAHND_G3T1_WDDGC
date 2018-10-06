@@ -1,0 +1,24 @@
+﻿<!--2018.09.28, HTML page that contains a practice of some things learned in Lesson 3-->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>A Practice of Some Things Learned in Lesson 3</title>
+    <link href="L3_1.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="L3_1.js"></script>
+</head>
+<body>
+    <h1 class="header">Some Things Learned in</h1>
+    <h2 class="header">Lesson 3</h2>
+    <div><a href="http://ev.buaa.edu.cn/">Beihang University English Website</a></div>
+    <p>
+        Tel:
+        <input type="text" name="textTel" id="tel" />
+        <!--call the specified function in "L3_1.js" to control the "textTel" status according to the "radioStatus"-->
+        <input type="radio" name="radioStatus" id="enabled" value="Enabled" onchange="changeTextStatus()" />Enabled
+        <input type="radio" name="radioStatus" id="disabled" value="Disabled" onchange="changeTextStatus()" />Disabled
+    </p>
+</body>
+</html>
