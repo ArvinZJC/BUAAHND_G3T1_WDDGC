@@ -28,8 +28,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L3_1", "L3_1", "{CF1DA893-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L4", "L4", "{AF07D19F-C0B5-4D7F-A790-9C39454800CA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L5", "L5", "{05F8E0C6-B3AD-4800-8DB4-A9D9AF8A3263}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L4_1", "L4_1", "{1A61501E-E1A2-4BB0-BAD3-EA99838DB696}"
 	ProjectSection(SolutionItems) = preProject
 		L4\L4_1\L4_1.html = L4\L4_1\L4_1.html
@@ -42,7 +40,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L4_2", "L4_2", "{6D541CCA-D
 		L4\L4_2\L4_2.js = L4\L4_2\L4_2.js
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L5", "L5\L5.csproj", "{95006B31-7275-4256-8186-0C7734F07D05}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95006B31-7275-4256-8186-0C7734F07D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95006B31-7275-4256-8186-0C7734F07D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95006B31-7275-4256-8186-0C7734F07D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95006B31-7275-4256-8186-0C7734F07D05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
