@@ -1,6 +1,8 @@
 //2018.09.28, JavaScript code that is related to "L3_1.html"
 
-//control the "textTel" status according to the "radioStatus"
+/**
+ * Control the "textTel" status according to the "radioStatus".
+ */
 function ChangeTextStatus()
 {
     var radioStatus = document.getElementById( "enabled" );

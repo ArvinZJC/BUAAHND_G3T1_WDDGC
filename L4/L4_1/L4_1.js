@@ -1,13 +1,17 @@
 //2018.10.12, JavaScript code that is related to "L4_1.html"
 
-//clear text in the text boxes for output
+/**
+ * Clear text in the text boxes for output.
+ */
 function InitialOutput()
 {
     document.getElementById( "output1" ).value = "";
     document.getElementById( "output2" ).value = "";
 } //end function InitialOutput
 
-//get the total of 2 integers entered
+/**
+ * Get the total of 2 integers entered.
+ */
 function getTotal()
 {
     var integer1 = parseInt( document.getElementById( "input1" ).value );
@@ -16,7 +20,9 @@ function getTotal()
     document.getElementById( "output1" ).value = integer1 + integer2;
 } //end function getTotal
 
-//get the max of 2 integers entered
+/**
+ * Get the max of 2 integers entered.
+ */
 function getMax()
 {
     var integer1 = parseInt( document.getElementById( "input1" ).value );
