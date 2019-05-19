@@ -1,42 +1,42 @@
-﻿<!--2018.09.14, HTML page that indicates a simple prototype of an interface for signing up-->
+﻿<!-- HTML page that indicates a simple prototype of an interface for signing up -->
 
 <!DOCTYPE html>
 
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Sign up</title>
+    <title>Sign Up</title>
 </head>
 <body style="text-align: center; font-size: 24px">
-    <!--the user will fill the form for signing up-->
+    <!-- the user will fill the form for signing up -->
     <form>
-        <h1>Sign up</h1>
+        <h1>Sign Up</h1>
         <table border="1" style="margin: auto">
-            <!--set a username-->
+            <!-- set a username -->
             <tr>
                 <td height="80" align="center" valign="middle" bgcolor="#CCCCCC">
                     Username:
                     <label for="username"></label>
-                    <input type="text" name="textUsername" id="username" autofocus required />
+                    <input type="text" id="username" name="textUsername" autofocus required />
                 </td>
             </tr>
-            <!--set a password-->
+            <!-- set a password -->
             <tr>
                 <td height="80" align="center" valign="middle" bgcolor="#CCCCCC">
                     Password:
                     <label for="password"></label>
-                    <input type="password" name="textPassword" id="password" required>
+                    <input type="password" id="password" name="textPassword" required />
                 </td>
             </tr>
-            <!--set the gender (male or female)-->
+            <!-- set the gender (male or female) -->
             <tr>
                 <td height="80" align="center" valign="middle" bgcolor="#CCCCCC">
                     Gender:
-                    <input type="radio" name="radioGender" id="male" value="Male" />Male
-                    <input type="radio" name="radioGender" id="female" value="Female" />Female
+                    <input type="radio" id="male" name="radioGender" value="Male" />Male
+                    <input type="radio" id="female" name="radioGender" value="Female" />Female
                 </td>
             </tr>
-            <!--set the birthday-->
+            <!-- set the birthday -->
             <tr>
                 <td height="80" align="center" valign="middle" bgcolor="#CCCCCC">
                     Birthday:
@@ -60,21 +60,21 @@
                     </select>
                 </td>
             </tr>
-            <!--set a email address for receiving emails-->
+            <!-- set an email address for receiving emails -->
             <tr>
                 <td height="80" align="center" valign="middle" bgcolor="#CCCCCC">
                     Email:
                     <label for="email"> </label>
-                    <input type="email" name="textEmail" id="email" placeholder="example@domain.com" required>
+                    <input type="email" id="email" name="textEmail" placeholder="example@domain.com" required />
                 </td>
             </tr>
-            <!--confirm to sign up or reset all-->
+            <!-- confirm to sign up or reset all -->
             <tr>
                 <td height="30" align="center" valign="middle" bgcolor="#CCCCCC">
                     <label for="confirm"></label>
-                    <input type="submit" name="buttonOK" id="confirm" value="OK">
+                    <input type="submit" id="confirm" name="buttonOK" value="OK" />
                     <label for="reset"></label>
-                    <input type="reset" name="buttonReset" id="reset" value="Reset">
+                    <input type="reset" id="reset" name="buttonReset" value="Reset" />
                 </td>
             </tr>
         </table>

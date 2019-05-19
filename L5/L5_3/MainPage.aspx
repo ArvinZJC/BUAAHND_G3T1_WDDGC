@@ -1,4 +1,4 @@
-﻿<!--2018.10.19, main page of the web form page that practices using ASP.NET built-in objects Response and Request-->
+﻿<!-- main page that practices using ASP.NET built-in objects Response and Request -->
 
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MainPage.aspx.cs" Inherits="L5.L5_3.MainPage" %>
 
@@ -11,17 +11,17 @@
 <body>
     <form id="form1" runat="server">
         <div style="text-align: center">
-            <asp:Button ID="btnStart" Text="Start" runat="server" OnClick="btnStart_Click" />
+            <asp:Button ID="BtnStart" Text="Start" runat="server" OnClick="BtnStart_Click" />
             <p></p>
             <b>Name:</b>
-            <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TxtName" runat="server"></asp:TextBox>
             <br />
             <b>&nbsp;Age:</b>
-            <asp:TextBox ID="txtAge" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TxtAge" runat="server"></asp:TextBox>
             <p></p>
-            <asp:Button ID="btnOK" Text="OK" runat="server" OnClick="btnOK_Click" />
+            <asp:Button ID="BtnOK" Text="OK" runat="server" OnClick="BtnOK_Click" />
             <p></p>
-            <asp:Button ID="btnClose" Text="Close" runat="server" OnClick="btnClose_Click" />
+            <asp:Button ID="BtnClose" Text="Close" runat="server" OnClick="BtnClose_Click" />
         </div>
     </form>
 </body>

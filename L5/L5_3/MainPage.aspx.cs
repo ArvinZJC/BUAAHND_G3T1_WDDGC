@@ -1,4 +1,4 @@
-﻿//2018.10.19, class (code behind) that contains control events of the main page of the web page form L5_3
+﻿// class (code behind) that contains control events of the main page
 
 #region Using Directives
 using System;
@@ -8,31 +8,30 @@ using System.Web.UI;
 namespace L5.L5_3
 {
     /// <summary>
-    /// Partial class <see cref="MainPage"/> contains control events of the main page of the web form page L5_3
+    /// The partial class <see cref="MainPage"/> contains control events of the main page.
     /// </summary>
     public partial class MainPage : Page
     {
-        protected void Page_Load( object sender, EventArgs e )
+        protected void Page_Load(object sender, EventArgs e)
         {
+        } // end method Page_Load
 
-        } //end method Page_Load
-
-        //pop a window containing a message "Hello World!"
-        protected void btnStart_Click( object sender, EventArgs e )
+        // pop a window containing a message "Hello World!"
+        protected void BtnStart_Click(object sender, EventArgs e)
         {
-            Response.Write( "<script>alert( 'Hello World!');</script>" );
-        } //end method btnStart_Click
+            Response.Write("<script>alert('Hello World!');</script>");
+        } // end method BtnStart_Click
 
-        //redirect to the summary page with 2 parameters
-        protected void btnOK_Click( object sender, EventArgs e )
+        // redirect to the summary page with 2 parameters
+        protected void BtnOK_Click(object sender, EventArgs e)
         {
-            Response.Redirect( "SummaryPage.aspx?name=" + txtName.Text + "&age=" + txtAge.Text );
-        } //end method btnOK_Click
+            Response.Redirect("SummaryPage.aspx?name=" + TxtName.Text + "&age=" + TxtAge.Text);
+        } // end method BtnOK_Click
 
-        //close the main page
-        protected void btnClose_Click( object sender, EventArgs e )
+        // close the main page
+        protected void BtnClose_Click(object sender, EventArgs e)
         {
-            Response.Write("<script>window.open('', '_self').close();</script>"); //"Response.Write("<script>window.open('about:blank', '_self').close();</script>");" acts the same
-        } //end method btnClose_Click
-    } //end partial class MainPage
-} //end namespace L5.L5_3
+            Response.Write("<script>window.open('about:blank', '_self').close();</script>"); // "Response.Write("<script>window.open('', '_self').close();</script>");" acts the same (this may be influenced by browser)
+        } // end method BtnClose_Click
+    } // end partial class MainPage
+} // end namespace L5.L5_3

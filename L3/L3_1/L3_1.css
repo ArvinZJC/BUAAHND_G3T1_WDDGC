@@ -1,22 +1,22 @@
-﻿/*2018.09.28, CSS page that is related to "L3_1.html"*/
+﻿/* style sheets that are related to "L3_1.html" */
 
 body
 {
     margin: 0;
     padding: 0 50px 0 50px;
-    font-size: 24px
+    font-size: 24px;
 }
 
 .header
 {
     margin: 0 0 10px 0;
-    text-align: center
+    text-align: center;
 }
 
 h2::first-letter
 {
     font-size: 2em;
-    color: red
+    color: red;
 }
 
 div
@@ -24,15 +24,15 @@ div
     height: auto;
     width: auto;
     text-align: center;
-    background-color: lightgray
+    background-color: lightgray;
 }
 
 div:hover
 {
-    background-color: gray
+    background-color: gray;
 }
 
 p
 {
-    text-align: center
+    text-align: center;
 }

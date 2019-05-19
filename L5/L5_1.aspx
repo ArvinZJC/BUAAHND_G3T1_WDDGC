@@ -1,4 +1,4 @@
-﻿<!--2018.10.19, web form page that practices using "</% (code block) /%>"-->
+﻿<!-- web form page that practices using "</% (code block) /%>" -->
 
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="L5_1.aspx.cs" Inherits="L5.L5_1" %>
 
@@ -10,7 +10,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <% if( DateTime.Now.Hour < 12 )
+        <% if (DateTime.Now.Hour < 12)
             {
         %>
         Good morning!

@@ -1,4 +1,4 @@
-﻿<!--2018.09.21, HTML page that contains a web page layout practice-->
+﻿<!-- HTML page that contains a web page layout practice -->
 
 <!DOCTYPE html>
 
@@ -9,11 +9,13 @@
     <link href="L2_1.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <!--container for the company's logo and the top navigation bar-->
+    <!-- container for the company's logo and the top navigation bar -->
     <div class="container">
-        <!--the company's logo-->
-        <div id="companyLogo"><img src="pic/SampleLogo.jpg" id="logoStyle" /></div>
-        <!--the top navigation bar-->
+        <!-- the company's logo -->
+        <div id="companyLogo">
+            <img id="logoStyle" src="pic/SampleLogo.jpg" />
+        </div>
+        <!-- the top navigation bar -->
         <div id="topNav">
             <ul id="topNavMenu">
                 <li class="topNavMenuItem">Contacts</li>
@@ -24,13 +26,15 @@
             </ul>
         </div>
     </div>
-    <!--the company's ad picture-->
-    <div class="container"><img src="pic/CompanyAdPicture.jpg" id="adPictureStyle" /></div>
-    <!--container for the main content-->
+    <!-- the company's ad picture -->
+    <div class="container">
+        <img id="adPictureStyle" src="pic/CompanyAdPicture.jpg" />
+    </div>
+    <!-- container for the main content -->
     <div class="container" style="height: 453px; margin: 0">
-        <!--container for the news area and the login area-->
+        <!-- container for the news area and the login area -->
         <div id="leftContainer">
-            <!--the news area-->
+            <!-- the news area -->
             <div id="newsArea">
                 <div class="header"><b>&loz; Latest News</b></div>
                 <ul id="newsList">
@@ -39,31 +43,31 @@
                     <li class="newsListItem">&rsaquo; Date 3<br />News Summary 3</li>
                 </ul>
             </div>
-            <!--the login area-->
+            <!-- the login area -->
             <div id="loginArea">
                 <div class="header"><b>&loz; Log In</b></div>
                 <table border="0" style="margin: 0">
-                    <!--enter the username-->
+                    <!-- enter the username -->
                     <tr>
                         <td height="30" align="left" valign="middle">
                             <label for="textUsername"></label>
-                            <input type="text" name="textUsername" id="textUsername" placeholder="Username" required>
+                            <input type="text" id="textUsername" name="textUsername" placeholder="Username" required />
                         </td>
                     </tr>
-                    <!--enter the password-->
+                    <!-- enter the password -->
                     <tr>
                         <td height="30" align="left" valign="middle">
                             <label for="textPassword"></label>
-                            <input type="password" name="textPassword" id="textPassword" placeholder="Password" required>
+                            <input type="password" id="textPassword" name="textPassword" placeholder="Password" required />
                             <label for="buttonSignIn"></label>
-                            <input type="submit" name="buttonSignIn" id="buttonSignIn" value="Sign in">
+                            <input type="submit" id="buttonSignIn" name="buttonSignIn" value="Sign in" />
                         </td>
                     </tr>
-                    <!--other selections in the login area ("Forget your password?" or "Sign up")-->
+                    <!-- other selections in the login area ("Forgot password?" or "Sign up") -->
                     <tr>
                         <td height="30" align="left" valign="middle">
                             <ul id="loginAreaSelection">
-                                <li id="loginAreaForget"><u>Forget your password?</u></li>
+                                <li id="loginAreaForgot"><u>Forgot password?</u></li>
                                 <li id="loginAreaSignUp"><u>Sign up</u></li>
                             </ul>
                         </td>
@@ -71,12 +75,14 @@
                 </table>
             </div>
         </div>
-        <!--container for the 3 main content areas-->
+        <!-- container for the 3 main content areas -->
         <div id="rightContainer">
-            <!--the 1st main content area-->
+            <!-- the 1st main content area -->
             <div id="mainContentArea1">
                 <div class="header"><b>&loz; We Provide Best Solutions</b></div>
-                <div class="illustration"><img src="pic/Illustration1.jpg" id="illustrationStyle1" /></div>
+                <div class="illustration">
+                    <img id="illustrationStyle1" src="pic/Illustration1.jpg" />
+                </div>
                 <div class="text">
                     <p style="color: green; margin: 0 0 10px 10px">(This web page is made to practise the layout.)</p>
                     <p style="margin: 0 0 10px 10px">
@@ -87,10 +93,12 @@
                     <p style="color: gray; margin: 0 0 0 10px">(Web page layout practice: This web page is made to practise the layout.)</p>
                 </div>
             </div>
-            <!--the 2nd main content area-->
+            <!-- the 2nd main content area -->
             <div id="mainContentArea2">
                 <div class="header"><b>&loz; Advanced Business Solutions</b></div>
-                <div class="illustration" style="padding-bottom: 0"><img src="pic/Illustration2.jpg" id="illustrationStyle2" /></div>
+                <div class="illustration" style="padding-bottom: 0">
+                    <img id="illustrationStyle2" src="pic/Illustration2.jpg" />
+                </div>
                 <div class="text" style="padding-bottom: 0">
                     <p style="margin: 0 0 10px 10px">
                         (This is a web page layout practice.)<br />
@@ -102,7 +110,7 @@
                     <p style="color: orange; margin: 0 0 0 10px">(This web page is a layout practice.)</p>
                 </div>
             </div>
-            <!--the 3rd main content area-->
+            <!-- the 3rd main content area -->
             <div id="mainContentArea3">
                 <div class="header"><b>&loz; Global Delivery Model</b></div>
                 <div class="text" style="padding-bottom: 0">
@@ -112,18 +120,20 @@
                         (This is a web page layout practice.)<br />
                     </p>
                 </div>
-                <div class="illustration" style="padding-bottom: 0"><img src="pic/Illustration3.jpg" id="illustrationStyle3" /></div>
+                <div class="illustration" style="padding-bottom: 0">
+                    <img id="illustrationStyle3" src="pic/Illustration3.jpg" />
+                </div>
                 <div class="text" style="padding-top: 0">
                     <p style="margin: 0 0 0 10px">(This web page is a layout practice.)</p>
                 </div>
             </div>
         </div>
     </div>
-    <!--container for the copyright area and the bottom navigation bar-->
+    <!-- container for the copyright area and the bottom navigation bar -->
     <div class="container" style="background-color: white">
-        <!--the copyright area-->
-        <div id="copyrightArea">&copy; 2018 (Company's name)</div>
-        <!--the bottom navigation bar-->
+        <!-- the copyright area -->
+        <div id="copyrightArea">&copy;2018 (Company's name)</div>
+        <!-- the bottom navigation bar -->
         <div id="bottomNav">
             <ul id="bottomNavMenu">
                 <li class="bottomNavMenuItem">Contacts</li>

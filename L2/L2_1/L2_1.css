@@ -1,11 +1,11 @@
-﻿/*2018.09.21, CSS page that is related to "L2_1.html"*/
+﻿/* style sheets that are related to "L2_1.html" */
 
 body
 {
     margin: 0;
     padding: 0 50px 0 50px;
     font-size: 24px;
-    background-color: dimgray
+    background-color: dimgray;
 }
 
 .container
@@ -13,7 +13,7 @@ body
     height: auto;
     width: auto;
     margin: 0 0 4px 0;
-    background-color: lightgray
+    background-color: lightgray;
 }
 
 #companyLogo
@@ -22,14 +22,14 @@ body
     width: auto;
     padding: 37px 0 20px 20px;
     float: left;
-    background-color: white
+    background-color: white;
 }
 
 #logoStyle
 {
     height: 60px;
     width: 260px;
-    display: block
+    display: block;
 }
 
 #topNav
@@ -38,7 +38,7 @@ body
     width: auto;
     color: gray;
     padding: 65px 0 20px 0;
-    background-color: white
+    background-color: white;
 }
 
 #topNavMenu
@@ -46,7 +46,7 @@ body
     list-style-type: none;
     margin: 0 10px 0 0;
     padding: 0;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .topNavMenuItem
@@ -56,14 +56,14 @@ body
     padding: 0 10px 0 30px;
     text-align: right;
     color: gray;
-    border-right: 1px solid gray
+    border-right: 1px solid gray;
 }
 
 #adPictureStyle
 {
     height: 300px;
     width: 100%;
-    display: block
+    display: block;
 }
 
 #leftContainer
@@ -72,7 +72,7 @@ body
     width: 295px;
     margin: 0;
     float: left;
-    background-color: lightgray
+    background-color: lightgray;
 }
 
 #newsArea
@@ -81,13 +81,13 @@ body
     width: 235px;
     margin: 0 0 4px 0;
     padding: 10px 30px 10px 30px;
-    background-color: white
+    background-color: white;
 }
 
 .header
 {
     font-size: 28px;
-    padding: 10px 0 5px 0
+    padding: 10px 0 5px 0;
 }
 
 #newsList
@@ -95,13 +95,13 @@ body
     list-style-type: none;
     margin: 0;
     padding: 5px 0 10px 0;
-    font-size: 18px
+    font-size: 18px;
 }
 
 .newsListItem
 {
     display: block;
-    padding: 5px 0 5px 0
+    padding: 5px 0 5px 0;
 }
 
 #loginArea
@@ -109,7 +109,7 @@ body
     height: auto;
     width: 235px;
     padding: 10px 30px 20px 30px;
-    background-color: white
+    background-color: white;
 }
 
 #loginAreaSelection
@@ -117,17 +117,17 @@ body
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden
+    overflow: hidden;
 }
 
-#loginAreaForget
+#loginAreaForgot
 {
     float: left;
     display: block;
     font-size: 12px;
     color: gray;
     padding-right: 5px;
-    border-right: 1px solid gray
+    border-right: 1px solid gray;
 }
 
 #loginAreaSignUp
@@ -136,7 +136,7 @@ body
     display: block;
     font-size: 12px;
     color: gray;
-    padding-left: 5px
+    padding-left: 5px;
 }
 
 #rightContainer
@@ -145,7 +145,7 @@ body
     width: 1120px;
     margin: 0 0 0 4px;
     float: left;
-    background-color: lightgray
+    background-color: lightgray;
 }
 
 #mainContentArea1
@@ -154,7 +154,7 @@ body
     width: auto;
     margin: 0 0 4px 0;
     padding: 10px 20px 20px 20px;
-    background-color: white
+    background-color: white;
 }
 
 .illustration
@@ -163,7 +163,7 @@ body
     width: 25%;
     margin: 0;
     padding: 10px 5px 20px 0px;
-    float: left
+    float: left;
 }
 
 .text
@@ -173,14 +173,14 @@ body
     margin: 0;
     padding: 10px 10px 20px 5px;
     float: left;
-    font-size: 18px
+    font-size: 18px;
 }
 
 #illustrationStyle1
 {
     height: 143px;
     width: 100%;
-    display: block
+    display: block;
 }
 
 #mainContentArea2
@@ -190,14 +190,14 @@ body
     margin: 0 4px 0 0;
     padding: 10px 20px 20px 20px;
     float: left;
-    background-color: white
+    background-color: white;
 }
 
 #illustrationStyle2
 {
     height: 70px;
     width: 100%;
-    display: block
+    display: block;
 }
 
 #mainContentArea3
@@ -207,14 +207,14 @@ body
     margin: 0;
     padding: 10px 20px 20px 20px;
     float: left;
-    background-color: white
+    background-color: white;
 }
 
 #illustrationStyle3
 {
     height: 70px;
     width: 100%;
-    display: block
+    display: block;
 }
 
 #copyrightArea
@@ -225,7 +225,7 @@ body
     padding: 4px 0 4px 30px;
     font-size: 12px;
     color: gray;
-    background-color: black
+    background-color: black;
 }
 
 #bottomNav
@@ -235,7 +235,7 @@ body
     margin: 0 0 4px 0;
     padding: 10px 10px 40px 0;
     background-color: lightgray;
-    font-size: 12px
+    font-size: 12px;
 }
 
 #bottomNavMenu
@@ -243,7 +243,7 @@ body
     list-style-type: none;
     margin: 0 20px 0 0;
     padding: 0;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .bottomNavMenuItem
@@ -252,5 +252,5 @@ body
     display: block;
     padding: 0 10px 0 10px;
     text-align: center;
-    border-right: 1px solid
+    border-right: 1px solid;
 }
